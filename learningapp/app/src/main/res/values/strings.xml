@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">English</string>
+    <string name="tittle1">RUSSIAN GIRL</string>
+    <string name="paragraph2">"Are you willing to marry Peter if he comes again?"</string>
+    <string name="question1">Write the words or phrases in above paragraph which similar meaning </string>
+    <string name="text">1.Plays nervously with her hands</string>
+    <string name="text1">2.her eyes are filling with tears</string>
+    <string name="text2">3.her pride was hurt</string>
+    <string name="text3">4.no progress can be made</string>
+    <string name="text4">5.she finally starts to cry</string>
+    <string name="tittle2">Read the following poem and answer the questions</string>
+    <string name="Play">Play</string>
+    <string name="CheckWord">CheckWord</string>
+    <string name="end_game">Thank you for Playing</string>
+    <string name="PlayAgain">PlayAgain</string>
+    <string name="heading"> Complete the following exercise with the correct form of the words.</string>
+    <string name="adq1">1.That pitbull looks...(angry).</string>
+    <string name="adq2">2.She spoke...(quiet)</string>
+    <string name="adq3">3.Erica listened to her mother...(careful).</string>
+    <string name="adq4">4. Mary makes ... mistakes.(careless)</string>
+    <string name="adq5">5. Children grow ....(quick)</string>
+    <string name="adq6">6. He is very ...today. (happy)</string>
+    <string name="adq7">7.It is raining...(heavy)</string>
+    <string name="adq8">8. Morgan was ...hurt in a car accident.(serious)</string>
+    <string name="adq9">9.His situation was very ...(serious)</string>
+    <string name="adq10">10.Sally works...She never seems to stop.(continuous)</string>
+    <string name="a">Fill in each blank with a suitable word from the list given below. There is one extra</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <string name="text5">1.-----------observe the trends</string>
+    <string name="text6">2.Show me the meaning of ------ lonely</string>
+    <string name="text7">3.-------my heart body and soul</string>
+    <string name="text8">4.I ------be there where you are</string>
+    <string name="text9">5.I ----- to walk with</string>
+    <string name="texta">Sentence No:1</string>
+    <string name="text1a">Sentence No:2</string>
+    <string name="text2a">Sentence No:3</string>
+    <string name="text3a">Sentence No:4</string>
+    <string name="text4a">Sentence No:5</string>
+    <string name="text5a">Sentence No:6</string>
+    <string name="text6a">Sentence No:7</string>
+    <string name="text7a">Sentence No:8</string>
+    <string name="text8a">Sentence No:9</string>
+    <string name="text9a">Sentence No:10</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="have_an_account">Have an account?</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>mathsadmin</item>
+        <item>scienceadmin</item>
+    </string-array>
+    <string name="answer">answer</string>
+    <string name="playagain">PlayAgain</string>
+
+
+    <string name="b">about, case, cheque, benignly, value, drunk, witness, agreed, ranch, missing, settle, which, tried, success, only, engine-driver</string>
+    <string name="para2">
+        I lay in sorrow in deep distress;
+     My grief a proud man heard;
+His looks were cold, he gave me gold,
+      But not a kindly word.
+My sorrow passed – I paid him back
+     The gold he gave to me;
+Then stood erect and spoke my thanks
+        And blessed his charity.
+I lay in want, and grief and pain;
+        A poor man passed my way.
+He bound my heard he gave me bread,
+        He watched me night and day.
+How shall I pay him back again
+       For all he did to me?
+Oh, god is great but greater far
+        Is heavenly sympathy.
+
+    </string>
+    <string name="q2"> 1.	How did the proud man help the poet when he was ‘in deep distress ‘?</string>
+    <string name="q2a1"> (1)He gave him jewels     </string>
+    <string name="q2a2"> (2)He took him home         </string>
+    <string name="q2a3"> (3)He gave some money  </string>
+    <string name="q2a4"> (4)He pitied the poet      </string>
+
+    <string name="q3">2.What do you think the poet expected from the proud man ?</string>
+    <string name="q3a1">(1)	Money </string>
+    <string name="q3a2">(2) gold </string>
+    <string name="q3a3">(3)  food</string>
+    <string name="q3a4">(4) sympathy</string>
+
+    <string name="q4">3.How did the poor man take care the poet ?</string>
+    <string name="q4a1">(1)	The poor man gave him some money and food.</string>
+    <string name="q4a2">(2)	The poor man gave him gold and kind words</string>
+    <string name="q4a3">(3)	The poor man gave him food and took care of him day and night</string>
+    <string name="q4a4">(4)	The poor man took him home and bound his head which was hurt</string>
+
+    <string name="q5"> 4.Which of the following statements is not true?</string>
+    <string name="q5a1">(1)	The poet repaid hid debt to the proud man by thanking him</string>
+    <string name="q5a2">(2)	The poor man blessed the charity of the poet</string>
+    <string name="q5a3">(3)	When the poet was in sorrow  he was given money</string>
+    <string name="q5a4">(4)	The poet says he cannot repay the poor man for his sympathy</string>
+
+    <string name="q6">5.Which word in the poem means “give money to a person who is in need “?</string>
+    <string name="q6a1">(1)	Charity</string>
+    <string name="q6a2">(2) sympathy </string>
+    <string name="q6a3">(3)  kindness</string>
+    <string name="q6a4">(4) distress</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.english">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/b"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Settings2"></activity>
+        <activity android:name=".Settings" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".results" />
+        <activity android:name=".Grammer" />
+        <activity android:name=".Adjectives_Adverbs" />
+        <activity android:name=".Game" />
+        <activity android:name=".WordSearchActivity1" />
+        <activity android:name=".EndGame1" />
+        <activity android:name=".vListning" />
+        <activity android:name=".Science_Lessons" />
+        <activity android:name=".sci_tissues_plant" />
+        <activity android:name=".sci_tissues_animal" />
+        <activity android:name=".sci_photosyn_products" />
+        <activity android:name=".sci_photosyn_importance" />
+        <activity android:name=".sci_photosyn_factors" />
+        <activity android:name=".sci_biosphere_pollution" />
+        <activity android:name=".sci_biosphere_lifestyle" />
+        <activity android:name=".sci_biosphere_ecosystems" />
+        <activity android:name=".sci_biosphere_development" />
+        <activity android:name=".sci_biosphere_levels" />
+        <activity android:name=".sci_humanboady_respiration" />
+        <activity android:name=".sci_humanboady_excertion" />
+        <activity android:name=".sci_humanboady_digestion" />
+        <activity android:name=".sci_humanboady_coordination" />
+        <activity android:name=".rMainActivity" />
+        <activity android:name=".rLevel2" />
+        <activity android:name=".rLevel1" />
+        <activity android:name=".VCommunicative_English" />
+        <activity android:name=".VExplorative_English" />
+        <activity android:name=".VEffective_English" />
+        <activity android:name=".VEnglish" />
+        <activity android:name=".VPractice" />
+        <activity android:name=".VLearn" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash" />
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".EndGame2"/>
+        <activity android:name=".WordSearchActivity2"/>
+        <activity android:name=".WordSearchActivity3"/>
+        <activity android:name=".EndGame3"></activity>
+        <activity android:name=".Para"/>
+        <activity android:name=".Conversation"/>
+        <activity android:name=".EmailWritting"/>
+        <activity android:name=".LetterWritting"></activity>
+        <activity android:name=".speech"></activity>
+    </application>
+
+</manifest>

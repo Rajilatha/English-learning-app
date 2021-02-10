@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".vListning">
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/x2"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="horizontal|vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/x2"
+                android:text="English Pronounciation"
+                android:textSize="30sp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="236dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+
+                    android:text="Words"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+
+                    android:text="UK"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="61dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+
+                    android:text="US"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="Agile"
+                    android:textColor="#242222"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dialog_background_dark"
+                    android:onClick="play"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="us"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="versatile"
+                    android:textColor="#242222"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play2"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton19"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play3"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="fertile"
+                    android:textColor="#242222"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton18"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play4"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play5"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="hostile"
+                    android:textColor="#242222"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play6"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dialog_background_dark"
+                    android:onClick="play8"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="mobile"
+                    android:textColor="#242222"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play9"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play10"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="civilization"
+                    android:textColor="#242222"
+                    android:textColorHighlight="@color/colorPrimaryDark"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play11"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play12"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="organization"
+                    android:textColor="#242222"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play13"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play14"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="authorization"
+                    android:textColor="#242222"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play15"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play16"
+                    android:background="@drawable/dialog_background_dark"
+                    android:tint="@color/main_orange_light_color"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

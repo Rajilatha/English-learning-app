@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/x1"
+    tools:context=".Settings2">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="play"
+        android:text="Play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pause"
+        android:text="Pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stop"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/texta"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="@string/texta"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/answera"
+            app:layout_constraintTop_toBottomOf="@id/text"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/text1a"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="@string/text1a"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/answer1a" app:layout_constraintTop_toBottomOf="@id/text1" app:layout_constraintRight_toRightOf="parent" app:layout_constraintLeft_toLeftOf="parent" android:inputType="text"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text2a" android:textSize="20sp" android:textColor="@android:color/black" android:text="@string/text2a" android:textStyle="bold"/>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/answer2a" app:layout_constraintTop_toBottomOf="@id/text2" app:layout_constraintRight_toRightOf="parent" app:layout_constraintLeft_toLeftOf="parent" android:inputType="text"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text3a" android:textSize="20sp" android:textColor="@android:color/black" android:text="@string/text3a" android:textStyle="bold"/>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/answer3a" app:layout_constraintTop_toBottomOf="@id/text1" app:layout_constraintRight_toRightOf="parent" app:layout_constraintLeft_toLeftOf="parent" android:inputType="text"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text4a" android:textSize="20sp" android:textColor="@android:color/black" android:text="@string/text4a" android:textStyle="bold"/>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/answer4a" app:layout_constraintTop_toBottomOf="@id/text4a" app:layout_constraintRight_toRightOf="parent" app:layout_constraintLeft_toLeftOf="parent" android:inputType="text"/>
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/Question4"
+            android:layout_toLeftOf="@+id/Question4"
+            android:onClick="getScore"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

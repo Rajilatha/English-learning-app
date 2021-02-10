@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rLevel1">
+
+    <LinearLayout
+        android:id="@+id/quiz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/tittle1"
+            android:layout_width="392dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/b6"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="@string/tittle1"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/paragraph1"
+            android:layout_width="match_parent"
+            android:layout_height="843dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/x1"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="A HANDSOME, CLEAR-EYED RUSSIAN GIRL of about twenty-years, the daughter of a farmer comes in and sits down before us. she is clean and intelligent looking. She nervously clasps and unclasps her hands and the tears are welling in her eyes.
+'That girl',says one commissioner, is an interesting and puzzling case. Her fater is a farmer in moderate circumstances. A young man with whom she grew up, the son of a neighbor, came here two yeas ago, and last year wrote to her father that the girl could come over and he would marry her. So she came, alone. But the prospective bridegroom didn't show up. I wrote to him- he lives somewhere in New Jersey- and last week he appeared and looked her over. Finally he said he'd changed his mind. He wasn't sure whether he wanted to marry her or not. Naturally her pride was somewhat wounded. She says she doesn't want to go back to be laughed at by her family, and I can't let her land. So everthing is at a standstill. She could work, look at her strong arms! A nice girl, too. Well, I don't know what to do. You don't know any lady who wants a servant, do you? No? Well,I just don't know what to do with her'.
+ He turns again to the girl.
+Are you willing to marry Peter if he comes again?
+The girl nods and say, 'I am', the tears brimming over. 'Well, I'll write to the fellow again and tell himm he's a fool. He'll never hav such a chance again'."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:background="@drawable/b6"
+            android:text="@string/question1"
+            android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:background="@drawable/x1"
+            android:text="@string/text"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:background="@drawable/x1"
+            android:text="@string/text1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="424dp"
+            android:layout_height="29dp"
+            android:background="@drawable/x1"
+            android:text="@string/text2"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text2"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/x1"
+            android:text="@string/text3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:background="@drawable/x1"
+            android:text="@string/text4"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text4"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/Question4"
+            android:layout_toLeftOf="@+id/Question4"
+            android:background="#FF006EA9"
+            android:onClick="getScore"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</ScrollView>
